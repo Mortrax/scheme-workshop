@@ -1,26 +1,15 @@
 # scheme-workshop
 Source code for scheme examples that will be covered during the Fall 2017 Scheme Workshop
 
-- Please install GNU Guile.
-  - `msys2` has a way of already doing this:
-
-    pacman -S guile
-
-  - `brew` with Mac OS X:
-
-    brew install guile
-
-  - `apt-get` in Ubuntu/Debian:
-
-    sudo apt-get install guile-2.0
-
-- Then, run all of the following files by doing this:
-
-    guile NAME.scm
-
-- To run Guile in interactive mode, run:
-
-    guile
+# Setup
+- Please install Dr. Racket.
+ - Go to racket-lang.org
+ - Click on Download in top-right corner
+ - Select 'Racket' as the distribution
+ - Select the platform corresponding to your computer's operating system
+ - Click the download button to download and run the installer
+ - Run the DrRacket application to open the DrRacket IDE
+ 
 
 # Topics
 
