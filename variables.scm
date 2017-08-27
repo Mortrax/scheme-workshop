@@ -21,6 +21,15 @@
 
 (+ a b); => 3
 
+;;;; We can also set symbols to refer to the values returned by more complex expressions
+
 (define a-squared (* a a)); => 1
 
 (define b-squared (* b b)); => 4
+
+;;;; You can be as complex as you want in your assignments
+;;;; As long as the second argument to (define...) is a valid s-expression
+;;;; (define...) will successfully bind its first argument to the value of its
+;;;; second argument in the environment
+
+(define a-squared-minus-b-squared (- a-squared b-squared));
