@@ -107,6 +107,11 @@ number ;=> 10
 ;; Now the environment maintained in the fridge closure object will look like the following
 ;; [ add-food : (lambda (amount) ...), remove-food : (lambda (amount) ...), starting-food : 120]
 
+((fridge 'remove) 30); => 90
+;; Now the environment maintained in the fridge closure object will look like the following
+;; [ add-food : (lambda (amount) ...), remove-food : (lambda (amount) ...), starting-food : 90]
+
 ;; For clarity, we will walk through the evaluations that take place when we pass various messages
 ;; to the fridge "closure object" on the board
+
 
