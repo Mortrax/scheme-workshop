@@ -20,6 +20,7 @@ Source code for scheme examples that will be covered during the Fall 2017 Scheme
     - Nested Arithmetic
   - Variables
   - Definitions
+  - Conditional Expressions and Decision Making
   - Procedure definitions/lambda expressions
   - Procedure calls
   - Recursion
