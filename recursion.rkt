@@ -28,10 +28,10 @@
 ;; Here is how we define the factorial function in Scheme
 
 (define factorial
-	(lambda (n)
-		(if (zero? n)
-			1
-			(* n (factorial (- n 1))))))
+  (lambda (n)
+    (if (zero? n)
+        1
+        (* n (factorial (- n 1))))))
 
 ;; Factorial is a procedure that takes in one argument, the natural number 'n' for which we
 ;; want to compute n!

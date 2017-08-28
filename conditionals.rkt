@@ -64,8 +64,8 @@
 (define num 20); => [ num : 20 ]
 
 (if (> num 10)
-	(* num 2)
-	num); => 40
+    (* num 2)
+    num); => 40
 
 ;;; Line by line interpretation
 ;;; We define num to be 20, now the symbol 'num is bound to the numeric value 20 in the
@@ -99,7 +99,7 @@
 ;; YOU FILL IN
 ;;; I have provided helper procedures below
 (define level-up (lambda (character)
-	(if ...)))
+                   (if ...)))
 
 ;; Fill in the procedure until the following tests pass
 
@@ -133,12 +133,12 @@
 ;; Take in a character, and an amount of EXP points to add, and return
 ;; a new character with the original character's EXP plus amount
 (define add-experience 
-	(lambda (character amount)
-		(list (get-health character)
-			  (get-attack character)
-			  (+ (get-experience character)
-			     amount)
-			  (get-level character))))
+  (lambda (character amount)
+    (list (get-health character)
+          (get-attack character)
+          (+ (get-experience character)
+             amount)
+          (get-level character))))
 
 ;; Example call
 
