@@ -18,25 +18,20 @@ Source code for scheme examples that will be covered during the Fall 2017 Scheme
     - Constants
     - Arithmetic expressions
     - Nested Arithmetic
-  - Variables
-  - Definitions
+  - Variables and Definitions
+  - Lists/pairs and Cons and Cdr
   - Conditional Expressions and Decision Making
   - Procedure definitions/lambda expressions
   - Procedure calls
   - Recursion
     - Write Factorial recursive
-  - Lists/pairs and Cons and Cdr
   - Recursion with lists and mapping
 - Advanced Scheme
   - Tail Recursion
     - Write Factorial tail recursive
   - Closures
   - Mutation, state, and abstract objects
-  - Continuations
   - Macros and syntactic extension
 - Implementing Scheme
   - The Heap Based Model
   - Environment
-  - Frames and Control Stack
-  - Closures
-  - Continuations
