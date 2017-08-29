@@ -20,9 +20,8 @@ Source code for scheme examples that will be covered during the Fall 2017 Scheme
     - Nested Arithmetic
   - Variables and Definitions
   - Lists/pairs and Cons and Cdr
+  - Procedure definitions/lambda expressions and procedure calls
   - Conditional Expressions and Decision Making
-  - Procedure definitions/lambda expressions
-  - Procedure calls
   - Recursion
     - Write Factorial recursive
   - Recursion with lists and mapping
