@@ -1,5 +1,5 @@
 # scheme-workshop
-Source code for scheme examples that will be covered during the Fall 2017 Scheme Workshop
+Source code for scheme examples that will be covered during the Spring 2018 Scheme Workshop
 
 # Setup
 - Please install Dr. Racket.
